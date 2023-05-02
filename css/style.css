@@ -1,0 +1,34 @@
+:root {
+    --mainFont: 'Lora', serif;
+    --primary: #05bae6;
+    --secondary: #db008d;
+    --gray: #e5e5e5;
+    --white: #ffffff;
+    --black: #000000;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    font-family: var(--mainFont);
+    font-size: 1.2rem;
+}
+
+.site-header {
+    padding: 2rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
