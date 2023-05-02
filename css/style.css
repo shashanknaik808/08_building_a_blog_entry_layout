@@ -62,6 +62,12 @@ body {
     text-align: center;
 }
 
+@media (min-width:768px) {
+    .main-navigation ul li {
+        margin-bottom: 0;
+    }
+}
+
 .main-navigation ul li:last-of-type {
     margin-bottom: 0;
 }
